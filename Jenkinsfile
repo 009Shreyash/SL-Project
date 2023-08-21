@@ -8,8 +8,7 @@ pipeline {
  stages {
  stage(‘Checkout’) {
  steps {
- git([url: ‘https://github.com/009Shreyash/SL-Project.git', branch: ‘main’])
- }
+ git 'url: ‘https://github.com/009Shreyash/SL-Project.git' }
  }
  stage(‘Build’) {
  steps{
