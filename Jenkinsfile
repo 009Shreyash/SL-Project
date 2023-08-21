@@ -1,7 +1,7 @@
 pipeline {
  environment {
  imagename = “009shreyash/jenkins-docker”
- credential = ‘009shreyash’
+ credential = ‘009shreyash-dockerhub’
  dockerImage = ‘’
  }
  agent any
