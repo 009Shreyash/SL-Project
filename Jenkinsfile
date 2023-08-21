@@ -1,10 +1,11 @@
 pipeline {
+ agent any
  environment {
  imagename = “009shreyash/jenkinsdockerpipeline”
  credential = ‘009shreyashDockerhub’
  dockerImage = ‘’
  }
- agent any
+
  stages {
  stage(‘Checkout’) {
  steps {
