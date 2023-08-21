@@ -6,7 +6,7 @@ pipeline {
  }
  agent any
  stages {
- stage(‘Cloning Git’) {
+ stage(‘Cloning git’) {
  steps {
  git([url: ‘https://github.com/009Shreyash/SL-Project.git', branch: ‘main’])
  }
@@ -25,7 +25,7 @@ pipeline {
  }
  }
  }
- stage(‘Deploy Image’) {
+ stage(‘Deploy image’) {
  steps{
  script {
  docker.withRegistry( ‘’, credential ) {
