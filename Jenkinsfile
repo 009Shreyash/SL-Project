@@ -20,7 +20,7 @@ pipeline {
  stage(‘Test’) {
  steps{
  script {
- sh “docker run ${imagename}:01”
+    sh "docker run -d --restart=always -p 8080:80 ${imagename}:version"
  }
  }
  }
