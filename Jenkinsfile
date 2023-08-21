@@ -20,7 +20,7 @@ pipeline {
  stage(‘Test’) {
  steps{
  script {
- sh “docker run ${imagename}:latest”
+ sh “docker run ${imagename}:01”
  }
  }
  }
