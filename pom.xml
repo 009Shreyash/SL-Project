@@ -55,6 +55,9 @@
                 </executions>
             </plugin>
 
+                 <finalName>devops-automation</finalName>
+                 
+
             <!-- fat-jar -->
             <!-- https://books.sonatype.com/mvnex-book/reference/customizing-sect-custom-packaged.html -->
             <!--
