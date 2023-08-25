@@ -1,4 +1,4 @@
 FROM nginx
 EXPOSE 8080
-ADD target/devops-automation.jar devops-automation.jar
-ENTRYPOINT ["java","-jar","devops-automation.jar"]
+ADD target/java-project-1.0-SNAPSHOT.jar java-project-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","java-project-1.0-SNAPSHOT.jar"]
