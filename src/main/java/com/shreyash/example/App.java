@@ -1,4 +1,4 @@
-package com.mkyong.hashing;
+package com.shreyash.example;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
